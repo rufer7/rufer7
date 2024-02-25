@@ -1,0 +1,25 @@
+name: Update latest blog posts workflow
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    # workflow runs every day at 10:00
+    - cron: "0 10 * * *"
+  workflow_dispatch: # Run workflow manually (without waiting for the cron to be called), through the GitHub Actions Workflow page directly
+permissions:
+  contents: write # allows writing generated content to the README
+
+jobs:
+  update-readme-with-latest-blog-posts:
+    name: Update this repo's README with latest blog posts
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Pull in blog posts
+        uses: gautamkrishnar/blog-post-workflow@v1
+        with:
+          feed_list: "https://blog.rufer.be/feed/"
+          user_agent: "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+          accept_header: "text/xml"
