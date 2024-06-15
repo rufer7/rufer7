@@ -9,9 +9,9 @@
 ## My five latest blog posts
 
 <!-- BLOG-POST-LIST:START -->
+- [[HOWTO] Automate release notes generation with an Azure DevOps YAML pipeline](https://blog.rufer.be/2024/06/14/howto-automate-release-notes-generation-with-an-azure-devops-yaml-pipeline/)
 - [[HOWTO] Create Azure DevOps Service Connections with authentication method Workload Identity Federation using Terraform](https://blog.rufer.be/2024/04/17/howto-create-azure-devops-service-connections-with-authentication-method-workload-identity-federation-using-terraform/)
 - [[HOWTO] Exclude content from GitHub Copilot](https://blog.rufer.be/2024/04/05/howto-exclude-content-from-github-copilot/)
 - [[HOWTO] Suggest changes directly in Azure DevOps pull requests](https://blog.rufer.be/2024/04/04/howto-suggest-changes-directly-in-azure-devops-pull-requests/)
 - [[HOWTO] Calculate distance between two points &lpar;coordinates&rpar; on Microsoft SQL Server](https://blog.rufer.be/2024/03/31/howto-calculate-distance-between-two-points-coordinates-on-microsoft-sql-server/)
-- [[NoBrainer] Solve AuthorizationPermissionMismatch error on terraform init](https://blog.rufer.be/2024/02/08/nobrainer-solve-authorizationpermissionmismatch-error-on-terraform-init/)
 <!-- BLOG-POST-LIST:END -->
