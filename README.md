@@ -2,8 +2,6 @@
 
 <img alt="rufer7 GitHub stats" src="https://github-readme-stats.vercel.app/api?username=rufer7&count_private=true&show_icons=true&theme=dark&include_all_commits=true">
 
-![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/rufer_13)
-
 :newspaper: [Blog](https://blog.rufer.be/)
 
 ## My five latest blog posts
